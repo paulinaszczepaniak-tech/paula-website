@@ -1,15 +1,15 @@
-PAULA SIGNATURE WEBSITE
+PAULA LUXURY TEMPLATE V4
 
-This rebuild uses:
-- your real PS logo
-- your uploaded portrait
-- the visual direction from your Instagram screenshot
-- separate Home, Lettings, Interiors, About, Portfolio and Contact pages
+This version is designed to match your original luxury mockup much more closely:
+- cream / dark chocolate / gold palette
+- fine borders and editorial spacing
+- serif luxury typography
+- actual PS logo
+- your own portrait on About and Portfolio CTA
+- separate Home, About, Lettings, Interiors, Work and Contact pages
 
-TO REPLACE THE LIVE GITHUB SITE:
-Upload ALL files from this folder into the top level of your paula-website repository and choose Commit changes.
-You can overwrite index.html/style.css/script.js. Also upload all the new .html pages, logo.png, paula.jpg and instagram-mood.jpg.
+UPLOAD:
+Replace the files in your existing GitHub repository with ALL files in this folder.
+Keep every file in the repository root. GitHub Pages settings do not need to change.
 
-GitHub Pages itself does not need to be reconfigured.
-
-NOTE: The property/interior photographs are demo web images. Replace them with your own licensed property photography when available.
+Temporary property/interior images are loaded from Unsplash. When you send your own property photos, replace those for a fully custom final version.
