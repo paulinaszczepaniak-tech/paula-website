@@ -1,15 +1,15 @@
-PAULA WEBSITE V2
+PAULA SIGNATURE WEBSITE
 
-This version uses your actual uploaded gold PS logo.
+This rebuild uses:
+- your real PS logo
+- your uploaded portrait
+- the visual direction from your Instagram screenshot
+- separate Home, Lettings, Interiors, About, Portfolio and Contact pages
 
-UPLOAD TO GITHUB:
-1. Open your paula-website repository.
-2. Replace the old index.html, style.css and script.js with the new files.
-3. Upload logo.png as well.
-4. Commit the changes.
-5. GitHub Pages will update automatically after a short delay.
+TO REPLACE THE LIVE GITHUB SITE:
+Upload ALL files from this folder into the top level of your paula-website repository and choose Commit changes.
+You can overwrite index.html/style.css/script.js. Also upload all the new .html pages, logo.png, paula.jpg and instagram-mood.jpg.
 
-Important:
-- Keep all four files in the same top-level folder.
-- Do not put logo.png in a separate folder unless you also change the HTML path.
-- The demo photography is pulled from Unsplash. Replace those image URLs in style.css with your own photographs whenever you are ready.
+GitHub Pages itself does not need to be reconfigured.
+
+NOTE: The property/interior photographs are demo web images. Replace them with your own licensed property photography when available.

@@ -1,1 +1,1 @@
-const header=document.querySelector('.topbar');const btn=document.querySelector('.menu-btn');btn.addEventListener('click',()=>{const open=header.classList.toggle('open');btn.setAttribute('aria-expanded',String(open));});document.querySelectorAll('.desktop-nav a').forEach(a=>a.addEventListener('click',()=>header.classList.remove('open')));
+const h=document.querySelector('.header'),b=document.querySelector('.menu');b.addEventListener('click',()=>h.classList.toggle('open'));
