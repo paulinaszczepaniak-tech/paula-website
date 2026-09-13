@@ -1,1 +1,7 @@
-const h=document.querySelector('.site-header'),b=document.querySelector('.menu');if(b){b.addEventListener('click',()=>h.classList.toggle('open'));}document.querySelectorAll('.nav a').forEach(a=>a.addEventListener('click',()=>h.classList.remove('open')));
+document.querySelectorAll('a[href^="#"]').forEach(a=>{
+  a.addEventListener('click',e=>{
+    const id=a.getAttribute('href');
+    const el=document.querySelector(id);
+    if(el){e.preventDefault();el.scrollIntoView({behavior:'smooth'});}
+  });
+});

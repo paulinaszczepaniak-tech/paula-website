@@ -1,55 +1,104 @@
-<!doctype html><html><head><title>Paula Szczepaniak | Property · Lettings · Interiors</title>
+<!doctype html>
+<html lang="en">
+<head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#2b1d16">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Paula Szczepaniak | Property · Lettings · Interiors</title>
 <meta name="description" content="Paula Szczepaniak — Property, Lettings and Interiors.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@300;400;500&family=Italianno&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=DM+Sans:wght@300;400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
-<body class="dark-header">
-<header class="site-header">
-  <a class="brand" href="index.html"><img src="logo.png" alt="PS"></a>
-  <nav class="nav">
-    <a href="index.html">Home</a>
-    <a href="lettings.html">Lettings</a>
-    <a href="interiors.html">Interiors</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
+<body>
+<header class="topnav">
+  <nav class="nav-left">
+    <a href="#about">About</a>
+    <a href="#lettings">Lettings</a>
   </nav>
-  <div class="social-mini">◎ ◌</div>
-  <button class="menu" aria-label="Menu">☰</button>
+  <nav class="nav-right">
+    <a href="#interiors">Interiors</a>
+    <a href="#work">Work</a>
+    <a href="#contact">Contact</a>
+  </nav>
 </header>
 
 <main>
-<section class="home-hero hero-image">
-  <div class="shade"></div>
-  <div class="hero-copy">
-    <p class="eyebrow gold">PAULA SZCZEPANIAK</p>
-    <h1>Property · Lettings · Interiors</h1>
-    <p class="script hero-script">Property, with a creative perspective.</p>
-    <p class="body-small">Helping properties look their best, let successfully, and feel beautifully considered.</p>
-    <a class="btn btn-light" href="about.html">Explore →</a>
-  </div>
-</section>
+  <section class="hero" aria-label="Luxury property introduction">
+    <img class="hero-bg" src="hero-reference.jpg" alt="">
+    <div class="hero-overlay"></div>
 
-<section class="intro cream">
-  <p class="eyebrow center">TWO PERSPECTIVES.</p>
-  <h2 class="tracking center">ONE PASSION FOR PROPERTY.</h2>
-  <div class="three-services">
-    <article><div class="icon">⌂</div><h3>Lettings</h3><p>Helping landlords let their property with confidence.</p><a href="lettings.html">Discover →</a></article>
-    <article><div class="icon">✣</div><h3>Interiors</h3><p>Creating beautiful, considered spaces with purpose.</p><a href="interiors.html">Discover →</a></article>
-    <article><div class="icon">⌕</div><h3>Property</h3><p>Bringing together commercial expertise and creative vision.</p><a href="work.html">Discover →</a></article>
-  </div>
-</section>
+    <div class="hero-content">
+      <img class="hero-logo" src="logo.png" alt="PS">
+      <h1>PAULA SZCZEPANIAK</h1>
+      <div class="discipline-row">
+        <a href="#property">Property</a>
+        <span></span>
+        <a href="#lettings">Lettings</a>
+        <span></span>
+        <a href="#interiors">Interiors</a>
+      </div>
+      <div class="hero-line"></div>
+      <p class="hero-tag">A MORE CONSIDERED<br>APPROACH TO PROPERTY</p>
+      <a class="scroll" href="#about" aria-label="Scroll to about">⌄</a>
+    </div>
+  </section>
 
-<section class="home-photo-strip"></section>
+  <section id="about" class="about-grid">
+    <div class="about-copy">
+      <p class="eyebrow">ABOUT</p>
+      <h2>A PASSION<br><em>FOR BEAUTIFUL</em><br>SPACES</h2>
+      <p class="intro">Property, lettings and interiors, guided by a more considered perspective.</p>
+      <a class="text-link" href="#contact">Discover more</a>
+    </div>
+
+    <div class="portrait-wrap">
+      <img src="paula.jpg" alt="Paula Szczepaniak">
+    </div>
+
+    <div class="quote-block">
+      <blockquote>“Homes are more than<br>places, they’re a feeling.”</blockquote>
+      <div class="small-rule"></div>
+      <p>PAULA SZCZEPANIAK</p>
+    </div>
+  </section>
+
+  <section id="property" class="mosaic">
+    <div class="mosaic-card photo-one"></div>
+    <div class="mosaic-card dark-card">
+      <p>EXCEPTIONAL PROPERTIES<br>BEAUTIFULLY CURATED</p>
+      <div class="thin-line"></div>
+    </div>
+    <div class="mosaic-card photo-two"></div>
+  </section>
+
+  <section id="lettings" class="content-section cream">
+    <p class="eyebrow">LETTINGS</p>
+    <h2>Let with confidence.</h2>
+    <p>Personal, polished and professional support for landlords who want their property presented beautifully and managed with care.</p>
+  </section>
+
+  <section id="interiors" class="content-section dark">
+    <p class="eyebrow">INTERIORS</p>
+    <h2>Beautiful spaces.<br>Thoughtful design.</h2>
+    <p>Interior styling and spatial thinking with a warm, refined and highly considered point of view.</p>
+  </section>
+
+  <section id="work" class="content-section cream">
+    <p class="eyebrow">WORK</p>
+    <h2>Property, presentation and place.</h2>
+    <p>A portfolio of spaces, details and projects shaped by a love of atmosphere, proportion and thoughtful living.</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <p class="eyebrow">CONTACT</p>
+    <h2>Let’s connect.</h2>
+    <a href="mailto:paulina.szczepaniak@outlook.com">paulina.szczepaniak@outlook.com</a>
+    <a href="tel:+447802430477">+44 7802 430477</a>
+    <a href="https://www.instagram.com/lil_paula/" target="_blank" rel="noreferrer">@lil_paula</a>
+  </section>
 </main>
-<footer class="site-footer">
-  <img src="logo.png" alt="">
-  <div class="footer-center">DREAM SPACES · SUCCESSFUL LETTINGS · LASTING VALUE</div>
-  <div class="footer-heart">♡</div>
-</footer>
+
 <script src="script.js"></script>
-</body></html>
+</body>
+</html>

@@ -1,15 +1,17 @@
-PAULA LUXURY TEMPLATE V4
+PAULA — EXACT LUXURY HOMEPAGE
 
-This version is designed to match your original luxury mockup much more closely:
-- cream / dark chocolate / gold palette
-- fine borders and editorial spacing
-- serif luxury typography
-- actual PS logo
-- your own portrait on About and Portfolio CTA
-- separate Home, About, Lettings, Interiors, Work and Contact pages
+Upload every file in this folder to the ROOT of your GitHub Pages repository.
 
-UPLOAD:
-Replace the files in your existing GitHub repository with ALL files in this folder.
-Keep every file in the repository root. GitHub Pages settings do not need to change.
+Important:
+- index.html
+- style.css
+- script.js
+- logo.png
+- paula.jpg
+- hero-reference.jpg
+- editorial-reference.jpg
 
-Temporary property/interior images are loaded from Unsplash. When you send your own property photos, replace those for a fully custom final version.
+This version is intentionally built around the exact visual direction you approved:
+centered logo over the house hero, Paula Szczepaniak underneath, then Property / Lettings / Interiors.
+
+The hero uses the approved visual as a photographic reference asset so the live page stays very close to the mockup.
