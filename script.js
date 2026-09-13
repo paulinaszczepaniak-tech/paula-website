@@ -1,7 +1,16 @@
+
+const header = document.querySelector('.nav-wrap');
+const btn = document.querySelector('.menu-button');
+if(btn){
+  btn.addEventListener('click',()=>header.classList.toggle('open'));
+}
 document.querySelectorAll('a[href^="#"]').forEach(a=>{
-  a.addEventListener('click',e=>{
-    const id=a.getAttribute('href');
-    const el=document.querySelector(id);
-    if(el){e.preventDefault();el.scrollIntoView({behavior:'smooth'});}
+  a.addEventListener('click', e=>{
+    const target=document.querySelector(a.getAttribute('href'));
+    if(target){
+      e.preventDefault();
+      target.scrollIntoView({behavior:'smooth'});
+      header.classList.remove('open');
+    }
   });
 });

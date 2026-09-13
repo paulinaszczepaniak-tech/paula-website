@@ -1,104 +1,121 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Paula Szczepaniak | Property · Lettings · Interiors</title>
-<meta name="description" content="Paula Szczepaniak — Property, Lettings and Interiors.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=DM+Sans:wght@300;400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Paula Szczepaniak | Property · Lettings · Interiors</title>
+  <meta name="description" content="Property, lettings and interiors with a more considered perspective.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="topnav">
-  <nav class="nav-left">
-    <a href="#about">About</a>
-    <a href="#lettings">Lettings</a>
-  </nav>
-  <nav class="nav-right">
-    <a href="#interiors">Interiors</a>
-    <a href="#work">Work</a>
-    <a href="#contact">Contact</a>
-  </nav>
-</header>
+  <header class="nav-wrap">
+    <a class="mobile-logo" href="#home"><img src="logo.png" alt="PS"></a>
+    <nav class="nav nav-left">
+      <a href="#about">About</a>
+      <a href="#lettings">Lettings</a>
+    </nav>
+    <nav class="nav nav-right">
+      <a href="#interiors">Interiors</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="menu-button" aria-label="Open menu">Menu</button>
+  </header>
 
-<main>
-  <section class="hero" aria-label="Luxury property introduction">
-    <img class="hero-bg" src="hero-reference.jpg" alt="">
-    <div class="hero-overlay"></div>
-
-    <div class="hero-content">
-      <img class="hero-logo" src="logo.png" alt="PS">
-      <h1>PAULA SZCZEPANIAK</h1>
-      <div class="discipline-row">
-        <a href="#property">Property</a>
-        <span></span>
-        <a href="#lettings">Lettings</a>
-        <span></span>
-        <a href="#interiors">Interiors</a>
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-shade"></div>
+      <div class="hero-center">
+        <img class="hero-logo" src="logo.png" alt="PS monogram">
+        <h1>PAULA SZCZEPANIAK</h1>
+        <div class="hero-rule"></div>
+        <div class="hero-categories">
+          <a href="#property">Property</a><i></i>
+          <a href="#lettings">Lettings</a><i></i>
+          <a href="#interiors">Interiors</a>
+        </div>
+        <div class="vertical-line"></div>
+        <p class="hero-tagline">A MORE CONSIDERED<br>APPROACH TO PROPERTY</p>
+        <a class="down" href="#about" aria-label="Scroll down">⌄</a>
       </div>
-      <div class="hero-line"></div>
-      <p class="hero-tag">A MORE CONSIDERED<br>APPROACH TO PROPERTY</p>
-      <a class="scroll" href="#about" aria-label="Scroll to about">⌄</a>
-    </div>
-  </section>
+    </section>
 
-  <section id="about" class="about-grid">
-    <div class="about-copy">
-      <p class="eyebrow">ABOUT</p>
-      <h2>A PASSION<br><em>FOR BEAUTIFUL</em><br>SPACES</h2>
-      <p class="intro">Property, lettings and interiors, guided by a more considered perspective.</p>
-      <a class="text-link" href="#contact">Discover more</a>
-    </div>
+    <section class="about" id="about">
+      <div class="about-copy">
+        <p class="kicker">ABOUT</p>
+        <h2>A PASSION<br><em>FOR BEAUTIFUL</em><br>SPACES</h2>
+        <p class="lead">Property, lettings and interiors, guided by a more considered perspective.</p>
+        <a class="under-link" href="#contact">Discover more <span>→</span></a>
+      </div>
+      <figure class="portrait"><img src="paula.jpg" alt="Paula Szczepaniak"></figure>
+      <div class="quote">
+        <blockquote>“Homes are more than<br>places, they’re a feeling.”</blockquote>
+        <span class="quote-line"></span>
+        <p>PAULA SZCZEPANIAK</p>
+      </div>
+    </section>
 
-    <div class="portrait-wrap">
-      <img src="paula.jpg" alt="Paula Szczepaniak">
-    </div>
+    <section class="services" id="property">
+      <article>
+        <div class="line-icon house-icon"></div>
+        <h3>PROPERTY</h3>
+        <p>EXCEPTIONAL HOMES.<br>THOUGHTFULLY SOURCED.</p>
+        <a href="#work">Explore <span>→</span></a>
+      </article>
+      <article id="lettings">
+        <div class="line-icon key-icon">◇</div>
+        <h3>LETTINGS</h3>
+        <p>A MORE PERSONAL<br>LETTINGS EXPERIENCE.</p>
+        <a href="#contact">Explore <span>→</span></a>
+      </article>
+      <article id="interiors">
+        <div class="line-icon chair-icon">▱</div>
+        <h3>INTERIORS</h3>
+        <p>BEAUTIFUL SPACES.<br>LASTING IMPRESSIONS.</p>
+        <a href="#work">Explore <span>→</span></a>
+      </article>
+    </section>
 
-    <div class="quote-block">
-      <blockquote>“Homes are more than<br>places, they’re a feeling.”</blockquote>
-      <div class="small-rule"></div>
-      <p>PAULA SZCZEPANIAK</p>
-    </div>
-  </section>
+    <section class="curation" id="work">
+      <div class="curation-photo left-photo"></div>
+      <div class="curation-copy">
+        <p>EXCEPTIONAL PROPERTIES<br>BEAUTIFULLY CURATED</p>
+        <span></span>
+        <strong>PAULA SZCZEPANIAK</strong>
+      </div>
+      <div class="curation-photo right-photo"></div>
+    </section>
 
-  <section id="property" class="mosaic">
-    <div class="mosaic-card photo-one"></div>
-    <div class="mosaic-card dark-card">
-      <p>EXCEPTIONAL PROPERTIES<br>BEAUTIFULLY CURATED</p>
-      <div class="thin-line"></div>
-    </div>
-    <div class="mosaic-card photo-two"></div>
-  </section>
+    <section class="story">
+      <div class="story-image"></div>
+      <div class="story-copy">
+        <p class="kicker">A PERSONAL APPROACH</p>
+        <h2>PROPERTY WITH<br><em>A CREATIVE EYE.</em></h2>
+        <p>I combine lettings knowledge with an interior design perspective, helping homes feel considered, desirable and beautifully presented.</p>
+        <a class="under-link" href="#contact">Work with me <span>→</span></a>
+      </div>
+    </section>
 
-  <section id="lettings" class="content-section cream">
-    <p class="eyebrow">LETTINGS</p>
-    <h2>Let with confidence.</h2>
-    <p>Personal, polished and professional support for landlords who want their property presented beautifully and managed with care.</p>
-  </section>
+    <section class="contact" id="contact">
+      <img src="logo.png" alt="" class="contact-logo">
+      <p class="kicker">CONTACT</p>
+      <h2>LET’S CONNECT</h2>
+      <p>For lettings, property and interior enquiries.</p>
+      <div class="contact-links">
+        <a href="mailto:paulina.szczepaniak@outlook.com">paulina.szczepaniak@outlook.com</a>
+        <a href="tel:+447802430477">+44 7802 430477</a>
+        <a href="https://www.instagram.com/lil_paula/" target="_blank" rel="noreferrer">@lil_paula</a>
+      </div>
+    </section>
+  </main>
 
-  <section id="interiors" class="content-section dark">
-    <p class="eyebrow">INTERIORS</p>
-    <h2>Beautiful spaces.<br>Thoughtful design.</h2>
-    <p>Interior styling and spatial thinking with a warm, refined and highly considered point of view.</p>
-  </section>
-
-  <section id="work" class="content-section cream">
-    <p class="eyebrow">WORK</p>
-    <h2>Property, presentation and place.</h2>
-    <p>A portfolio of spaces, details and projects shaped by a love of atmosphere, proportion and thoughtful living.</p>
-  </section>
-
-  <section id="contact" class="contact">
-    <p class="eyebrow">CONTACT</p>
-    <h2>Let’s connect.</h2>
-    <a href="mailto:paulina.szczepaniak@outlook.com">paulina.szczepaniak@outlook.com</a>
-    <a href="tel:+447802430477">+44 7802 430477</a>
-    <a href="https://www.instagram.com/lil_paula/" target="_blank" rel="noreferrer">@lil_paula</a>
-  </section>
-</main>
-
-<script src="script.js"></script>
+  <footer>
+    <span>© 2026 PAULA SZCZEPANIAK. ALL RIGHTS RESERVED.</span>
+    <span>PROPERTY · LETTINGS · INTERIORS</span>
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>

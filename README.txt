@@ -1,17 +1,18 @@
-PAULA — EXACT LUXURY HOMEPAGE
+PAULA FUNCTIONAL HTML WEBSITE
 
-Upload every file in this folder to the ROOT of your GitHub Pages repository.
+This is a real website, not a mockup image.
 
-Important:
-- index.html
-- style.css
-- script.js
-- logo.png
-- paula.jpg
-- hero-reference.jpg
-- editorial-reference.jpg
+Files:
+- index.html = actual page structure/content
+- style.css = actual layout/design/responsive styling
+- script.js = smooth scrolling + mobile menu behaviour
+- logo.png = your actual logo
+- paula.jpg = your portrait
 
-This version is intentionally built around the exact visual direction you approved:
-centered logo over the house hero, Paula Szczepaniak underneath, then Property / Lettings / Interiors.
+The luxury house/interior visuals are used only as normal photographic backgrounds from Unsplash. No screenshot/mockup of the website is used as the page.
 
-The hero uses the approved visual as a photographic reference asset so the live page stays very close to the mockup.
+UPLOAD TO GITHUB PAGES:
+1. Upload ALL files in this folder to the root of your paula-website repository.
+2. Commit the changes.
+3. Keep GitHub Pages publishing from main / root.
+4. Wait a minute or two, then hard refresh your live site.
